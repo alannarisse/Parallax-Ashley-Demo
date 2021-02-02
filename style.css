@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: top center;
+  background-color:#1e2021;
+}
+/* 	purple background-color:#434271;
+*/
+
+.me img {
+ width: 400px;
+}
+
+.container { 
+	z-index: -1; 
+	overflow: hidden;
+}
+.flex-3 {
+	padding-top: 60px;
+	display: flex;
+	background-color:#434271;
+	margin-top: -60px;
+	z-index: 2;
+}
+.left { 
+	flex: 30%;
+	z-index: 1;
+	 }
+.right { 
+	flex: 40%;
+	 }
+.me {
+	flex: 30%;
+}
+.left h2 { 
+	text-align: right;
+	margin-right: -60px;
+	color: white;
+	 }
+#scene img {width: 130%;}
+h1 {
+position: absolute;
+text-align: center;	
+color: #fff;
+top: 70vh;
+left: 0;
+right:0;
+
+}
+
+.parallax {
+  /* The image used */
+  
+}

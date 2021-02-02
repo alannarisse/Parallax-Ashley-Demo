@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="container" class="container">
+		<div id="scene" class="scene">
+			
+		<img class="fog2" src="bg2.png"  data-depth="1.00" alt="fog2">
+		<img class="fog3" src="bg3.png"  data-depth=".80" alt="fog3">
+		<img class="fog4" src="bg4.png"  data-depth=".60" alt="fog4">
+		<img class="fog4" src="bg5.png"  data-depth=".40" alt="fog5">
+
+</div>
+</div>
+
+<div class="flex-3">
+	<h1>Wander More.</h1>
+	<div class="left"><h2>About me</h2></div>
+	<div class="me"> 
+		<img src="me.jpg" alt="me">
+	</div>
+	<div class="right"><p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Vero explicabo quod aliquid ullam odit nostrum reprehenderit tempora repudiandae deleniti architecto.</p></div>
+</div>
+<script src="parallax.min.js"></script>
+<script>
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+</script>
+
+</body>
+</html>
